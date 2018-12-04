@@ -1,5 +1,5 @@
 body {
-  padding-bottom: 5rem;
+  padding-bottom: 15rem;
 }
 
 header {
@@ -43,10 +43,11 @@ footer.mdl-mini-footer {
 footer.mdl-mini-footer > ul {
   margin: auto;
   font-size: 2rem;
+  /* list-style-type: none; */
 }
 
 @media screen and (max-width: 1024px) {
-  header.mdl-layout_header {
-    display: flex;
-  }
-}
+   header.mdl-layout__header {
+     display: flex;
+   }
+ }
